@@ -1,0 +1,32 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\f289718468a201226b61ed0a6da32347\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\91c297da6aa5fc4603f5a783f8b905a9\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\fc7905e085a8712a3d786c4362110662\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\fb022fab214d3af8bcdfb9b178a12ba8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\119e7d8cecaf33b183ecd5c00839b1e7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\8011ef3de5fe53589e4a3e1f7ffde843\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\13ee388332992aaac4bea8f5e606b1ac\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\c2e5e7d02442b7e205f08519b5f6cc12\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\238a19c9b6b55858d14a978af60a5bfc\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\b25de5aa97e5e975d1762a258c837c3b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\07c1aa03968d98d4b380fb41827685c8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\14d2bb90e64a8da8d082bb3dbe33eb41\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\2f1f768bdb48219305e0e105fe3f7b19\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\bafd6eb26b38cf9af15e96a57ee3b51e\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\bafd9cbb6d3f828cd76f0a219656c9c3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\34b963f3264a732e619cb1c51a96d306\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\ae489b2abb3391f742dda9c6b2970d28\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\fd98ad701ce7dbc5ce48fe9fbcdd8c4a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\88b7e729b14b476ff1f9bf09140e1eb6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\4a5f6a12c7d5d542dfbb4ab2cb375334\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Stdio\.gradle\caches\transforms-2\files-2.1\991b4d9077c19e12a01fb50e1d3b3f53\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\Stdio\AndroidStudioProjects\ExcelReader\app\src\main\AndroidManifest.xml
