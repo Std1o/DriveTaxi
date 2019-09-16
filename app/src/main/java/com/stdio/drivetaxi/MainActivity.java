@@ -43,7 +43,25 @@ public class MainActivity extends AppCompatActivity {
 
         CookieManager.getInstance().setAcceptCookie(true);
         mWebView = (WebView) findViewById(R.id.maim_web);
-        mWebView.setWebViewClient(new MyWebViewClient());
+        mWebView.setWebViewClient(new MyWebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                if (url.startsWith("tel:")) {
+                    Intent intent = new Intent(Intent.ACTION_DIAL,
+                            Uri.parse(url));
+                    startActivity(intent);
+                } else if (url.startsWith("whatsapp:")) {
+                    String url2 = "https://api.whatsapp.com/send?phone=" + url.replace("whatsapp://send?phone=", "");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url2));
+                    intent.addFlags(Intent.FLAG_ACTIVITY_FORWARD_RESULT | Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET | Intent.FLAG_ACTIVITY_PREVIOUS_IS_TOP)
+                            .setPackage("com.whatsapp");
+                    startActivity(intent);
+                } else if (url.startsWith("http:") || url.startsWith("https:")) {
+                    view.loadUrl(url);
+                }
+                return true;
+            }
+        });
         mWebView.setWebChromeClient(new MyWebChromeClient(this, MainActivity.this));
 
         mWebView.getSettings().setJavaScriptEnabled(true);
