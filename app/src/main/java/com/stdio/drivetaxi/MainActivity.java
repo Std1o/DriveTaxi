@@ -56,7 +56,13 @@ public class MainActivity extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_FORWARD_RESULT | Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET | Intent.FLAG_ACTIVITY_PREVIOUS_IS_TOP)
                             .setPackage("com.whatsapp");
                     startActivity(intent);
-                } else if (url.startsWith("http:") || url.startsWith("https:")) {
+                }
+                else if (url.startsWith("viber:")) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW,
+                            Uri.parse(url));
+                    startActivity(intent);
+                }
+                else if (url.startsWith("http:") || url.startsWith("https:")) {
                     view.loadUrl(url);
                 }
                 return true;
