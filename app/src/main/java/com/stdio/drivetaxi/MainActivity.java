@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
                             Uri.parse(url));
                     startActivity(intent);
                 }
+                else if (url.startsWith("https://telegram.me/share")) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW,
+                            Uri.parse(url));
+                    startActivity(intent);
+                }
                 else if (url.startsWith("http:") || url.startsWith("https:")) {
                     view.loadUrl(url);
                 }
